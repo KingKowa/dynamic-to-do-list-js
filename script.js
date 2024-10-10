@@ -22,4 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
+    addButton.addEventListener('click', addTask);
+    taskInput.addEventListener('keypress', )
+
 });
