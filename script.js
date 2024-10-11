@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function(){
+    loadTasks();
     const storedTask = localStorage.getItem('taskList');
+
+    if(storedTask){
+        const tasks = JSON.parse(storedTask);
+    }
+
+
+
+
     const addButton = document.getElementById('add-task-btn');
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
